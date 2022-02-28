@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <section class="box">
+    <h2 class="player" id="player1">Player 1</h2>
+    <button class="btn" onclick="addScore(1, 'player1')">+</button>
+    <button class="btn" onclick="addScore(-1, 'player1')">-</button>
+    <div class="current">
+      <h1>Score</h1>
+      <h1 id="score1">20</h1>
+    </div>
+  </section>
+
+  <section class="box">
+    <h2 class="player" id="player2">Player 2</h2>
+    <button class="btn" onclick="addScore(1, 'player2')">+</button>
+    <button class="btn" onclick="addScore(-1, 'player2')">-</button>
+    <div class="current">
+      <h1>Score</h1>
+      <h1 id="score2">20</h1>
+    </div>
+  </section>
+</body>
+</html>
